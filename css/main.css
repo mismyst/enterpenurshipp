@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #17212e;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar button {
+    background-color: #f5cf6b;
+    color: #17212e;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: #d4a539;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #17212e;
+    color: #fff;
+}
+
+.carousel-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.slide-content h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.slide-content p {
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+
+.slide-content button {
+    background-color: #f5cf6b;
+    color: #17212e;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.slide-content button:hover {
+    background-color: #d4a539;
+}
+
+footer {
+    background-color: #17212e;
+    color: #f5cf6b;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+}
+
+.footer-section p, .footer-section a {
+    color: #f5cf6b;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-section a:hover {
+    color: #e4b953;
+}
+
+.footer-bottom {
+    background-color: #1f1d1a;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

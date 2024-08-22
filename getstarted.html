@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" href="getstar.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="side-menu">
+        <p class="text-choose">Courses</p>
+        <div class="choices-container">
+            <p class="choices" onclick="showContent('course1')">Course 1</p>
+            <p class="choices" onclick="showContent('course2')">Course 2</p>
+            <p class="choices" onclick="showContent('course3')">Course 3</p>
+        </div>
+    </div>
+
+    <div class="content" id="content">
+        <h2 style="background-color: #17212e;">Welcome to the Courses</h2>
+        <p>Please select a course from the side menu to see its details.</p>
+        
+        <div class="gallery">
+            <img src="./assets/baim-hanif-pYWuOMhtc6k-unsplash.jpg" alt="Course 1" class="gallery-img">
+            <img src="./assets/roman-mager-5mZ_M06Fc9g-unsplash.jpg" alt="Course 2" class="gallery-img">
+            <img src="./assets/unseen-studio-s9CC2SKySJM-unsplash.jpg" alt="Course 3" class="gallery-img">
+        </div>
+
+        <div class="fancy-text">
+            <p>Explore the world of knowledge and enhance your skills with our expertly designed courses. Dive into the rich content and discover new horizons in programming, web development, and data science.</p>
+        </div>
+
+        <div class="enhance">
+            <h1 class="fancy-text" style="color: yellow;">What Can Be Done?</h1>
+            <div class="each-sec">
+                <img src="./assets/course-intro.jpg" class="gallery-img" alt="Enhance your skills">
+                <img src="./assets/latest-course.jpg" class="gallery-img" alt="Latest courses">
+                <img src="./assets/utilize-website.jpg" class="gallery-img" alt="Utilize our website">
+                <p class="fancy-text" style="color: yellowgreen;">Available courses enhance your skills</p>
+                <i class="fas fa-file" style="color: yellow;"></i>
+            </div>
+        </div>
+
+        <div class="course-button-container">
+            <button class="course-button" onclick="window.location.href='course-list.html'">Explore More Courses</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List</title>
+    <link rel="stylesheet" href="course-list.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-menu">
+            <p class="text-choose">Courses</p>
+            <div class="choices-container">
+                <p class="choices" onclick="showContent('course1')">Course 1: Introduction to Entrepreneurship</p>
+                <p class="choices" onclick="showContent('course2')">Course 2: Scaling Your Startup</p>
+                <p class="choices" onclick="showContent('course3')">Course 3: Leadership in Entrepreneurship</p>
+            </div>
+        </div>
+
+        <div class="content" id="content">
+            <div class="welcome-box" >
+                <h2 style="color: yellow;">Welcome to the Course List</h2>
+                <p style="color: yellow;">Select a course from the side menu to see its details.</p>
+            </div>
+
+            <div class="extra-content">
+                <div class="box">
+                    <h3>Why Choose Our Courses?</h3>
+                    <p>Our courses are designed to provide comprehensive knowledge and practical skills in entrepreneurship. Whether you're starting out or looking to scale, we've got you covered.</p>
+                </div>
+                <div class="box">
+                    <h3>What You Will Learn:</h3>
+                    <ul>
+                        <li>Business fundamentals and advanced strategies</li>
+                        <li>Leadership and team management skills</li>
+                        <li>Innovative techniques for startup growth</li>
+                        <li>Social entrepreneurship and impact creation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="image-box">
+                <img src="./assets/clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="Entrepreneurship" class="intro-image">
+            </div>
+        </div>
+    </div>
+
+    <script src="coursescript.js"></script>
+</body>
+</html>
